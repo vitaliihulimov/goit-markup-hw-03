@@ -104,12 +104,12 @@ a {
 .section-title {
   background: #2e2f42;
   height: 600px;
+  padding: 188px 0 188px;
 }
 .title {
   max-width: 496px;
   text-align: center;
   margin: auto;
-  padding: 188px 0 0 0;
   font-weight: 700;
   font-size: 56px;
   margin-bottom: 48px;
@@ -130,7 +130,7 @@ a {
   cursor: pointer;
   display: block;
   max-width: 169px;
-  height: 59px;
+  height: 56px;
   border: none;
   border-radius: 4px;
   margin: auto;
@@ -318,7 +318,7 @@ a {
   margin-bottom: 8px;
 }
 .section-advantages {
-  padding: 120px 156px;
+  padding: 120px 0 120px;
 }
 .advantages-item {
   width: calc((100% - 72px) / 4);
@@ -338,7 +338,7 @@ a {
   padding-bottom: 32px;
 }
 .portfolio {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -362,9 +362,12 @@ section {
   padding-bottom: 120px;
 }
 .container-footer {
-  padding-top: 100px;
+  padding: 100px 0 100px;
 }
 .footer-p {
   width: 264px;
   height: 72px;
+}
+img {
+  display: block;
 }
