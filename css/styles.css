@@ -198,12 +198,12 @@ a {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .container-team {
@@ -245,9 +245,10 @@ a {
 }
 .container-portfolio {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 48px) / 6);
+  flex-basis: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
 }
 .portfolio {
