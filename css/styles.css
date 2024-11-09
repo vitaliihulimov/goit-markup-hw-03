@@ -166,6 +166,16 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+.strategy {
+  margin-bottom: 8px;
+}
+.section-advantages {
+  padding: 120px 0 120px;
+}
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -182,6 +192,7 @@ a {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   margin-bottom: 8px;
+  gap: 24px;
 }
 .our-team {
   background: #f4f4fd;
@@ -209,6 +220,33 @@ a {
 }
 .container-team {
   padding: 32px 0;
+}
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
+.team {
+  padding-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.name-team {
+  padding-top: 32px;
+}
+.team-p {
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+.container-portfolio {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 48px) / 6);
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 .portfolio {
   font-weight: 700;
@@ -238,9 +276,19 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 8px;
+}
+
+.portfolio-name {
+  padding-top: 32px;
+}
+
+.portfolio {
+  margin-bottom: 72px;
 }
 .footer-page {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-p {
   font-weight: 400;
@@ -261,6 +309,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .link-footer {
   font-family: 'Raleway', sans-serif;
@@ -317,61 +367,12 @@ a {
   padding: 24px 0;
   margin-right: 76px;
 }
-.advantages-list {
-  display: flex;
-  gap: 24px;
-}
-.strategy {
-  margin-bottom: 8px;
-}
-.section-advantages {
-  padding: 120px 0 120px;
-}
-.advantages-item {
-  width: calc((100% - 72px) / 4);
-}
-.team {
-  padding-bottom: 72px;
-  margin-bottom: 72px;
-}
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-.name-team {
-  padding-top: 32px;
-}
-.team-p {
-  padding-top: 8px;
-  padding-bottom: 32px;
-}
-.portfolio {
-  margin-bottom: 72px;
-}
-.portfolio-list {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-.portfolio-name {
-  padding-top: 32px;
-}
-.portfolio-p {
-  padding-top: 8px;
-}
-.container-portfolio {
-  flex-basis: calc((100%-48px) / 6);
-}
-.footer-page {
-  height: 312px;
-}
+
 section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container-footer {
-  padding: 100px 0 100px;
-}
+
 .footer-p {
   width: 264px;
   height: 72px;
