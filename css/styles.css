@@ -238,18 +238,17 @@ a {
 }
 .name-team {
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-p {
   text-align: center;
   margin-bottom: 8px;
 }
 .container-portfolio {
-  display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
-  flex-wrap: wrap;
-  flex-basis: calc((100% - 48px) / 3);
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .portfolio {
   font-weight: 700;
@@ -264,13 +263,16 @@ a {
   margin-bottom: 72px;
 }
 .portfolio-name {
-  font-weight: 500;
-  font-size: 20px;
+  margin-bottom: 8px;
 
   /* line-height: 24px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
 }
 .portfolio-list {
   display: flex;
