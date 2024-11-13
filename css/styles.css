@@ -242,13 +242,11 @@ a {
 }
 .team-p {
   text-align: center;
-  margin-bottom: 8px;
 }
 .container-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .portfolio {
   font-weight: 700;
@@ -287,11 +285,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 8px;
-}
-
-.portfolio-name {
-  padding-top: 32px;
 }
 
 .portfolio {
@@ -385,8 +378,7 @@ section {
 }
 
 .footer-p {
-  width: 264px;
-  height: 72px;
+  max-width: 264px;
 }
 img {
   display: block;
